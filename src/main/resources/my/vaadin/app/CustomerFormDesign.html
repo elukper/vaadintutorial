@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <meta name="design-properties" content="{&quot;RULERS_VISIBLE&quot;:true,&quot;GUIDELINES_VISIBLE&quot;:false,&quot;SNAP_TO_OBJECTS&quot;:true,&quot;SNAP_TO_GRID&quot;:true,&quot;SNAPPING_DISTANCE&quot;:10,&quot;GENERATE_GETTERS&quot;:false,&quot;JAVA_SOURCES_ROOT&quot;:&quot;src/main/java&quot;,&quot;THEME&quot;:&quot;mytheme&quot;}">
+  <meta name="vaadin-version" content="8.1.5">
+ </head>
+ <body>
+  <vaadin-form-layout size-auto>
+   <vaadin-text-field caption="First Name" _id="firstName"></vaadin-text-field>
+   <vaadin-text-field caption="Last Name" _id="lastName"></vaadin-text-field>
+   <vaadin-text-field caption="Email" _id="email"></vaadin-text-field>
+   <vaadin-native-select caption="Status" data-item-type="my.vaadin.app.CustomerStatus" _id="status"></vaadin-native-select>
+   <vaadin-date-field caption="Birthday" _id="birthday"></vaadin-date-field>
+   <vaadin-horizontal-layout>
+    <vaadin-button plain-text _id="save">
+      Save 
+    </vaadin-button>
+    <vaadin-button plain-text _id="delete">
+      Delete 
+    </vaadin-button>
+   </vaadin-horizontal-layout>
+  </vaadin-form-layout>
+ </body>
+</html>
